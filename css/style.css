@@ -73,6 +73,9 @@ body {
 .nav .btn .btn-english:hover{
     transform: scale(1.05) ;
 }
+.nav .btn .btn-english:active{
+    background-color: red;
+}
 
 .nav .btn .btn-sign {
     font-size: 1rem;
@@ -398,6 +401,9 @@ h3 {
     border-width: 0.0625rem;
     border-color: rgba(128, 128, 128, 0.7);
     cursor: pointer;
+}
+#footer3 .btn-english:active{
+    background-color: red;
 }
 #footer4{
     /* width: 80vw; */
